@@ -7,6 +7,13 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 
 const Header = () =>  (
   <Container>
+    <Helmet>
+      <meta property="og:type" content="website"/>
+      <meta property="og:url" content="https://amannsingh.netlify.app/"/>
+      <meta property="og:title" content="Amann Singh "/>
+      <meta property="og:description" content="Portfolio showcasing my work as software engineer student "/>
+      <meta property="og:image" content="/images/img2.png"/>
+    </Helmet>
     <Div1>
       <Link href="/">
         <a style={{display:"flex", alignItems: "center", color:"white", marginBottom:"20px"}}>
