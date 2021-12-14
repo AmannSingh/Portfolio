@@ -6,7 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-import image from '/images/img2.png';
+
 
 const Home = () => {
   return (
@@ -18,7 +18,7 @@ const Home = () => {
         <meta property="og:url" content="https://amannsingh.netlify.app/"/>
         <meta property="og:title" content="Amann Singh"/>
         <meta property="og:description" content="Portfolio showcasing my work as software engineer student"/>
-        <meta property="og:image" content={image}></meta>
+        <meta property="og:image" content="../../public/images/img2.png"></meta>
       <Section grid> 
         <Hero />
          <BgAnimation /> 
