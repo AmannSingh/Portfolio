@@ -2,18 +2,10 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-import { Helmet } from 'react-helmet';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
-    <Helmet>
-      <meta property="og:type" content="website"/>
-      <meta property="og:url" content="https://amannsingh.netlify.app/"/>
-      <meta property="og:title" content="Amann Singh "/>
-      <meta property="og:description" content="Portfolio showcasing my work as software engineer student "/>
-      <meta property="og:image" content="/images/img2.png"/>
-    </Helmet>
     <Div1>
       <Link href="/">
         <a style={{display:"flex", alignItems: "center", color:"white", marginBottom:"20px"}}>

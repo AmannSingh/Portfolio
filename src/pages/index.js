@@ -6,10 +6,19 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import image from '/images/img2.png';
 
 const Home = () => {
   return (
     <Layout>
+        <title>Amann Singh </title>
+        <meta name="title" content="Amann Singh "/>
+        <meta name="description" content="Portfolio showcasing my work as software engineer student "/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://amannsingh.netlify.app/"/>
+        <meta property="og:title" content="Amann Singh"/>
+        <meta property="og:description" content="Portfolio showcasing my work as software engineer student"/>
+        <meta property="og:image" content={image}></meta>
       <Section grid> 
         <Hero />
          <BgAnimation /> 
