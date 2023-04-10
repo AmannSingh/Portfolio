@@ -16,7 +16,7 @@ const Hero = (props) => (
             test my strengths in the field while developing new skills and knowledge. 
             I am really interested in AI, machine learning, game development, and app development.
       </SectionText>
-      <Button onClick = {()=> window.location = "https://drive.google.com/file/d/1NGZifQWr92rL_arVrqGORmJSDmcvTB6K/view?usp=sharing"}>Resume</Button> {/*change*/}
+      <Button onClick = {()=> window.location = "https://drive.google.com/file/d/16ShX0nNouZq1wmbU7xdplhwmWBdSkcG_/view?usp=sharing"}>Resume</Button> {/*change*/}
     </LeftSection>
 
   </Section>
